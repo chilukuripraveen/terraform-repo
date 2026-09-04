@@ -1,5 +1,5 @@
 provider "aws" {
-region = "us-east-1"
+region = "ap-south-1"
 }
 
 resource "aws_s3_bucket" "demo" {
@@ -8,7 +8,7 @@ bucket = "my-githubactions-bucket-oo99"
 
 
 resource "aws_instance" "my_server" {
-  ami           = "ami-081b0a6eac00b4f53" 
+  ami           = "ami-006f82a1d5a27da54" 
   instance_type = "t3.micro"             
 
   tags = {
