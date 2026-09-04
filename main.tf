@@ -3,7 +3,7 @@ region = "ap-south-1"
 }
 
 resource "aws_s3_bucket" "demo" {
-bucket = "my-githubactions-bucket-oo99"
+bucket = "my-githubactions-bucket-99199"
 }
 
 
